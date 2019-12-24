@@ -10,7 +10,7 @@
 var flakes = [],
     canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    flakeCount = 400,
+    flakeCount = 600,
     mX = -100,
     mY = -100
 
@@ -72,7 +72,7 @@ function snow() {
 function reset(flake) {
     flake.x = Math.floor(Math.random() * canvas.width);
     flake.y = 0;
-    flake.size = (Math.random() * 3) + 2;
+    flake.size = (Math.random());
     flake.speed = (Math.random() * 1) + 0.5;
     flake.velY = flake.speed;
     flake.velX = 0;
