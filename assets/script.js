@@ -65,14 +65,11 @@ function getAllUrlParams(url) {
 
 var namespace = document.getElementById("namespace");
 var name = getAllUrlParams().name;
-console.log(name);
 
 if (name == "undefined"){
 namespace.innerHTML = "";
-console.log("its undefined");
 }
 else{
-  console.log(name);
   namespace.innerHTML = name;
 
 }
@@ -92,5 +89,20 @@ var myArray = [
 ];
 
 var color = myArray[Math.floor(Math.random()*myArray.length)];
-
 document.body.style.backgroundColor = color;
+
+
+
+//personal personalmessage
+var pm = document.getElementById("personalmessage");
+console.log(pm);
+
+if(name == "koen"){
+  pm.innerHTML = "twoasten in brugge ister doa een winkelke woa dak twuk konde kwopn dak peisde ti nog twadde da koentje gern zoe ein";
+}
+if(name == "joke"){
+  pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
+}
+if(name == "maren"){
+  pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
+}

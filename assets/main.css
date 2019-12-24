@@ -6,6 +6,7 @@
     font-style: normal;
 
 }
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
 
 body {
 	color: white;
@@ -13,19 +14,30 @@ body {
 	max-height: 100vh;
 	overflow: hidden;
 }
-h1 {
-	margin: 0;
+.text{
+  margin: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+}
+h1 {
 	font-family: "aunofa";
 	font-size: 5rem;
 	text-align: center;
 }
+#personalmessage{
+  max-width: 600px;
+  text-align: center;
+  font-family: 'avenir', sans-serif;
+  margin-right: 0;
+  margin-top: 10px;
+  font-size: 18px;
+}
 .greets{
   font-size: 3rem;
+
 }
 @media (max-width: 1000px) {
 	h1 {
