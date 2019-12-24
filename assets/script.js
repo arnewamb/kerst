@@ -104,5 +104,5 @@ if(name == "joke"){
   pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
 }
 if(name == "maren"){
-  pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
+  pm.innerHTML = "der zin zodoanig veel dingen dak willen zeggen tegen joe dak geweune ni ip weurden kunnen komn, kziej ongelofelijk gern, en kgoan proberen u da voor de rest van me leven te loaten zien me dutje";
 }
