@@ -1,39 +1,31 @@
-body{
-  background-color: #111d5e;
-  color: white;
-  width: 100vw;
-  max-height: 100vh;
-  overflow: hidden;
+body {
+	background-color: #111d5e;
+	color: white;
+	width: 100vw;
+	max-height: 100vh;
+	overflow: hidden;
 }
-.container{
-  height: 100vh;
-}
-h1{
-  margin: 0;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-family: Aunofa Script DEMO;
-  font-size: 5rem;
-  text-align: center;
+h1 {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-family: Aunofa Script DEMO;
+	font-size: 5rem;
+	text-align: center;
 }
 @media only screen and (max-width: 600px) {
-  h1{
-    font-size: 7em;
-  }
+	h1 {
+		font-size: 7em;
+	}
 }
-
-.firstrow{
-  position: relative;
-  height: 100vh;
-}
-
-
-
 /* snow */
-canvas{
-    position:absolute;top:0;left:0;
-    z-index: -1000;
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1000;
 }
