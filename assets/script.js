@@ -76,3 +76,21 @@ else{
   namespace.innerHTML = name;
 
 }
+
+// change color of body
+var myArray = [
+  "#eb4d55",
+  "#111d5e",
+  "#230444",
+  "#f4b0c7",
+  "#46185f",
+  "#c72c41",
+  "#cc6a87",
+  "#42b883",
+  "#543864",
+  "#6384b3",
+];
+
+var color = myArray[Math.floor(Math.random()*myArray.length)];
+
+document.body.style.backgroundColor = color;
