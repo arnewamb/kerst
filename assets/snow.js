@@ -109,8 +109,8 @@ canvas.addEventListener("mousemove", function(e) {
 });
 
 window.addEventListener("resize",function(){
-    canvas.width = screen.innerWidth;
-    canvas.height = screen.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 })
 
 init();
