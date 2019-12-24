@@ -63,8 +63,16 @@ function getAllUrlParams(url) {
   return obj;
 }
 
+var namespace = document.getElementById("namespace");
 var name = getAllUrlParams().name;
 console.log(name);
 
-var namespace = document.getElementById("name");
-namespace.innerHTML = name;
+if (name == "undefined"){
+namespace.innerHTML = "";
+console.log("its undefined");
+}
+else{
+  console.log(name);
+  namespace.innerHTML = name;
+
+}
