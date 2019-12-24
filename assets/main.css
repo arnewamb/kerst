@@ -18,7 +18,7 @@ h1 {
 }
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 7em;
+		font-size: 1em;
 	}
 }
 /* snow */
