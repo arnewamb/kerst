@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'aunofa_script_demoregular';
+    font-family: 'aunofa';
     src: url('aunofa_script_demo-webfont.woff2') format('woff2'),
          url('aunofa_script_demo-webfont.woff') format('woff');
     font-weight: normal;
@@ -20,7 +20,7 @@ h1 {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
-	font-family: aunofa_script_demoregular;
+	font-family: "aunofa";
 	font-size: 5rem;
 	text-align: center;
 }
