@@ -12,13 +12,9 @@ body {
 	color: white;
 	width: 100vw;
 }
-.text{
+.row{
   margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+	margin-top: 15%;
 }
 h1 {
 	font-family: "aunofa";
@@ -29,7 +25,6 @@ h1 {
   max-width: 600px;
   text-align: center;
   font-family: 'avenir', sans-serif;
-
   font-size: 18px;
 }
 .greets{
