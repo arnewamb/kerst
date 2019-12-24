@@ -110,7 +110,7 @@ canvas.addEventListener("mousemove", function(e) {
 
 window.addEventListener("resize",function(){
     canvas.width = screen.innerWidth;
-    canvas.height = screen.innerHeight;
+    canvas.height = 2*screen.innerHeight;
 })
 
 init();
