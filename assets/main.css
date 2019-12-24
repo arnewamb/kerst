@@ -1,6 +1,8 @@
 body{
   background-color: #111d5e;
   color: white;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1{
@@ -9,14 +11,14 @@ h1{
      top: 50%;
      left: 50%;
      margin-right: -50%;
-     transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
   font-family: Aunofa Script DEMO;
   font-size: 5rem;
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
   h1{
-    font-size: 300px;
+    font-size: 7em;
   }
 }
 
