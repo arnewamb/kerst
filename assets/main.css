@@ -6,6 +6,7 @@ h1{
   position: absolute;
   transform:translateY(-50%);
   transform:translateX(-50%);
+  width: 200px;
   top:50%;
   left: 50%;
   font-family: Aunofa Script DEMO;
