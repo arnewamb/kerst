@@ -1,0 +1,21 @@
+body{
+  background-color: #111d5e;
+  color: white;
+}
+h1{
+  font-family: Aunofa Script DEMO;
+  font-size: 5em;
+  text-align: center;
+}
+.firstrow{
+  transform:translateY(-50%);
+  margin-top: 45%;
+}
+
+
+
+/* snow */
+canvas{
+    position:absolute;top:0;left:0;
+    z-index: -1000;
+}
