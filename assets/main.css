@@ -46,6 +46,9 @@ h1 {
   .greets{
     font-size: 7rem;
   }
+  #personalmessage{
+    font-size: 25px;
+  }
 }
 /* snow */
 
