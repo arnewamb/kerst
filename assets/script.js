@@ -94,15 +94,15 @@ document.body.style.backgroundColor = color;
 
 
 //personal personalmessage
-var pm = document.getElementById("personalmessage");
-console.log(pm);
+//var pm = document.getElementById("personalmessage");
+//console.log(pm);
 
-if(name == "koen"){
-  pm.innerHTML = "twoasten in brugge ister doa een winkelke woa dak twuk konde kwopn dak peisde ti nog twadde da koen gern zoe ein";
-}
-if(name == "joke"){
-  pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
-}
-if(name == "maren"){
-  pm.innerHTML = "der zin zodoanig veel dingen dak willen zeggen tegen joe dak geweune ni ip weurden kunnen komn, kziej ongelofelijk gern, en kgoan proberen u da voor de rest van me leven te loaten zien me dutje";
-}
+//if(name == "koen"){
+  //pm.innerHTML = "twoasten in brugge ister doa een winkelke woa dak twuk konde kwopn dak peisde ti nog twadde da koen gern zoe ein";
+//}
+//if(name == "joke"){
+  //pm.innerHTML = "ip nen regenachtigen dag in brugge passeerdigen we doa voorbie een winkelken die vre goe rook, ge zult miskien peizn tgoa allik geen zjippe zin zeker? nint nint gene zjip tis twuk hjil anders. Kzoe zegn doet ma zjirre opn en genietr van";
+//}
+//if(name == "maren"){
+  //pm.innerHTML = "der zin zodoanig veel dingen dak willen zeggen tegen joe dak geweune ni ip weurden kunnen komn, kziej ongelofelijk gern, en kgoan proberen u da voor de rest van me leven te loaten zien me dutje";
+//}
